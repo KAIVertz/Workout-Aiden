@@ -1,5 +1,5 @@
 // PPL Split — 6-day cycle, day 7 = active recovery
-// Equipment: dumbbells (2–10 kg) + resistance bands + bench/chair
+// Equipment: dumbbells (max 7 kg) + resistance bands + bench/chair
 // Level: Intermediate | Goal: Build mass overall
 // Note: Light weights → higher reps (15–20), bands, bodyweight compounds
 
@@ -14,12 +14,12 @@ export const WORKOUTS = {
     icon: '🔥',
     exercises: [
       {
-        id: 'push_up',
-        name: 'Push-Up',
+        id: 'incline_push_up',
+        name: 'Incline Push-Up',
         sets: 4,
-        repsTarget: 'Max reps',
+        repsTarget: '12–15',
         muscle: 'Chest / Triceps',
-        tip: 'Chest to floor every rep. No half reps — they don\'t count.',
+        tip: 'Hands on the bench, body straight as a board. This builds you up to floor push-ups — nail these first.',
       },
       {
         id: 'incline_dumbbell_press',
@@ -27,7 +27,7 @@ export const WORKOUTS = {
         sets: 4,
         repsTarget: '15–20',
         muscle: 'Upper Chest',
-        tip: 'Use the bench at ~45°. Slow down on the way down — 3 seconds.',
+        tip: 'Bench at ~45°. 7 kg — go slow on the way down, 3 seconds. Speed kills gains here.',
       },
       {
         id: 'dumbbell_fly',
@@ -87,12 +87,12 @@ export const WORKOUTS = {
         tip: 'Squeeze everything — glutes, abs, quads. Don\'t let your hips sag.',
       },
       {
-        id: 'push_up_to_failure',
-        name: 'Push-Up Burnout',
+        id: 'incline_push_up_burnout',
+        name: 'Incline Push-Up Burnout',
         sets: 1,
-        repsTarget: 'Failure',
+        repsTarget: 'Max reps',
         muscle: 'Chest / Triceps',
-        tip: 'This is your finisher. Last set of the day — leave nothing in the tank.',
+        tip: 'Finisher. Hands on the bench. Go until you physically can\'t. Track the number — beat it next time.',
       },
     ],
   },
